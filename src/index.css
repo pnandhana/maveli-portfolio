@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: helvetica,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  width: 40%;
+}
+
+.greet-h2 {
+  text-align: center;
+
+  font-weight: 200;
+  color: white;
+  font-size: 5vw;
+	text-shadow: -0.04em 0.04em 0 #000,
+				  0.04em 0.04em 0 #000,
+				 0.04em -0.04em 0 #000,
+				-0.04em -0.04em 0 #000;
+}
+.abt{
+  color:rgb(236, 234, 234);
+  margin: 100px;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  background-color: rgba(74, 76, 119, 0.2);
+  border-radius: 30px;
+}
+.exp{
+  color:rgb(31, 31, 31);
+  margin: 100px;
+  padding: 10px;
+  width: 500px;
+  height: 350px;
+  background-color: rgba(210, 211, 236, 0.3);
+  border-radius: 30px;
+}
+.disclaimer{
+  text-align: center;
+  
+  color: antiquewhite;
+  text-shadow: -0.04em 0.04em 0 #000,
+  0.04em 0.04em 0 #000,
+ 0.04em -0.04em 0 #000,
+-0.04em -0.04em 0 #000;
+}
+.abt-box{
+  display: flex;
+  justify-content: space-between;
+}
+.ref-box{
+  display: flex;
+  justify-content: end;
+  
+}
+.reff{
+  color: white;
+  margin: 100px;
+  padding: 20px;
+  width: 250px;
+  height: 200px;
+  background-color: rgba(210, 211, 236, 0.3);
+  border-radius: 30px;
+}
+.exp-box{
+  display: flex;
+  justify-content: space-between;
+}
