@@ -3,9 +3,14 @@
   "name": "project-maveli",
   "private": false,
   "version": "0.0.0",
+  "repository": {
+   "url": "git+https://github.com/pnandhana/maveli-portfolio.git"
+ },
   "type": "module",
   "scripts": {
-    "start" : "react-script start"
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist",
+    "start" : "react-script start",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
