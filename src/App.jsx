@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import moon from './moon.png';
-import land from './land.png';
+import land from 'public/land.png';
 import cat from './cat.gif';
 import maveli from './maveli.gif';
 
